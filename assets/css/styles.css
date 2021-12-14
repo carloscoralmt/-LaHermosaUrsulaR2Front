@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cfcfcf;
+    color: #fff;
+}
+
+.logo {
+    width: 50%;
+}
+
+.formulario { 
+    background-color: #66BB6A;
+    box-shadow: 15px 15px 6px -6px rgba(0, 0, 0, 0.7);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 20px #66BB6A;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.olvido {
+    text-align: right;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-shadow: 0 0 20px #000000;
+}
+
+.btn {
+    color: #000000;
+    background-color: #fff;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: #8cff92;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
